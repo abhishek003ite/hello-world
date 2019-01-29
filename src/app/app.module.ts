@@ -8,6 +8,7 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { ThirdComponentComponent } from './third-component/third-component.component';
 import { ForthComponentComponent } from './forth-component/forth-component.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TemplateReferenceVariablesComponent } from './template-reference-variables/template-reference-variables.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     SecondComponentComponent,
     ThirdComponentComponent,
     ForthComponentComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TemplateReferenceVariablesComponent
   ],
   imports: [
     BrowserModule,
