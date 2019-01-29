@@ -7,6 +7,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { ThirdComponentComponent } from './third-component/third-component.component';
 import { ForthComponentComponent } from './forth-component/forth-component.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ForthComponentComponent } from './forth-component/forth-component.compo
     FirstComponentComponent,
     SecondComponentComponent,
     ThirdComponentComponent,
-    ForthComponentComponent
+    ForthComponentComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
