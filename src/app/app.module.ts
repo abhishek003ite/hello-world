@@ -15,6 +15,7 @@ import { NgIfComponentComponent } from './ng-if-component/ng-if-component.compon
 import { NgSwitchComponentComponent } from './ng-switch-component/ng-switch-component.component';
 import { NgForComponentComponent } from './ng-for-component/ng-for-component.component';
 import { ComponentInterationComponent } from './component-interation/component-interation.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ComponentInterationComponent } from './component-interation/component-i
     NgIfComponentComponent,
     NgSwitchComponentComponent,
     NgForComponentComponent,
-    ComponentInterationComponent
+    ComponentInterationComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
