@@ -11,6 +11,7 @@ import { ForthComponentComponent } from './forth-component/forth-component.compo
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TemplateReferenceVariablesComponent } from './template-reference-variables/template-reference-variables.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { NgIfComponentComponent } from './ng-if-component/ng-if-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     ForthComponentComponent,
     EventBindingComponent,
     TemplateReferenceVariablesComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    NgIfComponentComponent
   ],
   imports: [
     BrowserModule,
