@@ -3,6 +3,9 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
+  <h2>
+    {{message}}
+  </h2>
   <!-- <app-first-component></app-first-component> -->
   <!-- <app-second-component></app-second-component> -->
   <!-- <app-third-component></app-third-component> -->
@@ -12,7 +15,8 @@
   <!-- <app-two-way-binding></app-two-way-binding> -->
   <!-- <app-ng-if-component></app-ng-if-component> -->
   <!-- <app-ng-switch-component></app-ng-switch-component> -->
-  <app-ng-for-component></app-ng-for-component>
+  <!-- <app-ng-for-component></app-ng-for-component> -->
+  <app-component-interation (childEvent)="message=$event" [parentData]="name"></app-component-interation>
 </div>
 
 
