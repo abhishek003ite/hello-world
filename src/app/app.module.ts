@@ -13,6 +13,7 @@ import { TemplateReferenceVariablesComponent } from './template-reference-variab
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { NgIfComponentComponent } from './ng-if-component/ng-if-component.component';
 import { NgSwitchComponentComponent } from './ng-switch-component/ng-switch-component.component';
+import { NgForComponentComponent } from './ng-for-component/ng-for-component.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgSwitchComponentComponent } from './ng-switch-component/ng-switch-comp
     TemplateReferenceVariablesComponent,
     TwoWayBindingComponent,
     NgIfComponentComponent,
-    NgSwitchComponentComponent
+    NgSwitchComponentComponent,
+    NgForComponentComponent
   ],
   imports: [
     BrowserModule,
