@@ -12,6 +12,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TemplateReferenceVariablesComponent } from './template-reference-variables/template-reference-variables.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { NgIfComponentComponent } from './ng-if-component/ng-if-component.component';
+import { NgSwitchComponentComponent } from './ng-switch-component/ng-switch-component.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NgIfComponentComponent } from './ng-if-component/ng-if-component.compon
     EventBindingComponent,
     TemplateReferenceVariablesComponent,
     TwoWayBindingComponent,
-    NgIfComponentComponent
+    NgIfComponentComponent,
+    NgSwitchComponentComponent
   ],
   imports: [
     BrowserModule,
